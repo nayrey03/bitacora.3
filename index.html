@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="#for">formularios HTML</a>
+            <a href="#for2">formularios CSS</a>
+            <a href="#col">color</a>
+            <a href="#esp">especificidad</a>
+            <a href="#aft">after y before</a>
+            <a href="#tab">table</a>
+            <a href="#hea">header</a>
+            <a href="#foo">footer</a>
+        </nav>
+        <section>
+            <div id="for" class="titulo">
+                <h1>formularios HTML</h1>
+            </div>
+
+            <div class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                    <p> los elementos con los que los usuarios pueden interactuar para proporcionar datos se conocen como campos de formulario. 
+                        A cada campo de formulario se le asigna un nombre en el HTML, que lo identifica para la aplicación de servidor, pero no es visible para el usuario.</p>
+                </div>
+            </div>
+
+            <div  class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                 <p>Aunque los diversos elementos de un formulario parecen diferentes para el usuario, todos ellos transmiten información a la aplicación de servidor como una serie de pares de nombre y valor, separados por caracteres & . 
+                    Cada nombre es el nombre de un campo de formulario y el valor son los datos producidos por las acciones del usuario.</p>
+                </div>
+                <div imagen ><img src="imagenes/for.jpg" alt="" width="700"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>os formularios son áreas delimitadas por una etiqueta (form), que contiene recuadros de entrada de texto, botones, recuadros de selección y otras características de una interfaz gráfica de usuario. 
+                        Las aplicaciones web utilizan los formularios para permitir que los usuarios proporcionen los datos que se van a enviar al servidor</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="for2" class="titulo">
+                <h1>formularios CSS</h1>
+            </div>
+
+            <div id="lado1" class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                    <p>display block: siempre comienza en una linea y ocupa todo el ancho disponible</p>
+                    <p>inline: no comienza en una nueva linea y solo ocupa un ancho necesario</p>
+                    <p>inline-block: permite establecer un hancho y una altura en el elemento</p>
+                    <p>none: se usa comunmente con JavaScript para ocultar y mostrar elemento cuando el usuario realiza alguna accion</p>
+                </div>
+            </div>
+
+            <div id="lado2" class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>Gracias a los estilos podemos romper el diseño gris con líneas negras de los formularios y 
+                        convertirlos en una parte más que se integra perfectamente en nuestro diseño web</p>
+                </div>
+                <div imagen><img src="imagenes/forcss.jpg" alt="" width="700"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>pueden ser utilizadas para usar en formularios de una página web. 
+                        Estas pseudoclases permiten seleccionar elementos para darle estilo dependiendo de temas relacionados con los formularios o los campos que están en el interior de un formulario.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="col" class="titulo">
+                <h1>color</h1>
+            </div>
+
+            <div id="lado1" class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                   <p>Cuando se crea un sitio web, la eleccion de los colores es una tarea delicada, a pesar de parecer facil. 
+                    Seleccionar una paleta de colores correcta es importante para comunicar eficasmente el mensaje. </p>
+                </div>
+            </div>
+
+            <div id="lado2" class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                   <p>Aunque no hay reglas absolutas, tener en cuenta algunas pautas pueden ayudarnos a encontrar un diseno armonico.</p>
+                   <p>-identifica el publico objetivo de tu pagina web</p>
+                   <p>-no abusar de los colores</p>
+                   <p>-transmitir sensaciones</p>
+                </div>
+                <div imagen><img src="imagenes/color.jpg" alt="" width="500"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>Los colores en un sitio web pueden ser una herramienta muy eficas para lograr que los visitantes sde sientan comodos e interactuen en el sitio.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="esp" class="titulo">
+                <h1>especificidad</h1>
+            </div>
+
+            <div id="lado1" class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                    <p> Es el medio por el cual los navegadores deciden que valores de propiedad CSS son los mas relevantes para un elemento y, por lo tanto, se aplicaran
+                    </p>
+                </div>
+            </div>
+
+            <div id="lado2" class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>Cada selector tiene su lugar en la jerarquía de especialidad. Hay cuatro categorías que definen el nivel de especificidad de un selector:</p>
+                    <p>- estilos inline</p>
+                    <p>- ID´S</p>
+                    <p>- clases, atributos y pseudo-clases</p>
+                    <p>- elementos y pseudoelementos</p>
+                </div>
+                <div imagen><img src="imagenes/espe.svg" alt="" width="500"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>Solo se aplica cuando el mismo elemento es el objetivo de varias declaraciones. 
+                        cuando varias declaraciones tienen la misma especificidad, 
+                        la ultima declaración encontrada en CSS se aplica al elemento.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="aft" class="titulo">
+                <h1>after y before</h1>
+            </div>
+
+            <div id="lado1" class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                    <p>Si bien el resultado final no esta realmente en el documento, apacerceen la pagina como si lo estuviera. 
+                        Se debe usar la propiedad de contenido (content) para especificar el contenido para insertar.</p>
+                </div>
+            </div>
+
+            <div id="lado2" class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>El selector AFTER inserta algo después del contenido de cada uno de los elementos seleccionados</p>
+                    <p>El selectoctor BEFORE inserta algo andes del contenido de cada uno de los elementos.</p>
+                </div>
+                <div imagen><img src="imagenes/afbe.png" alt="" width="500"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>pseudo elementos que permiten insertar contenido en una pagina desde CSS (sin que tenga que estar en el HTML). </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="tab" class="titulo">
+                <h1>table</h1>
+            </div>
+
+            <div id="lado1" class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                    <p> Una tabla en html consta de celdas de tabla dentro de filas y columnas. Nos permite organizar los datos en filas y columnas.
+                    </p>
+                </div>
+            </div>
+
+            <div id="lado2" class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p> thead -encabezado</p>
+                    <p>th -celda del encabezado</p>
+                    <p>tbody -cuerpo</p>
+                    <p>tr -renglon</p>
+                    <p>td -celdas</p>
+                    <p>caption -para insertar</p>
+                    <p>tfoot -footer</p>
+                    <p>Rowspan: indica el numero de filas que ocupa una sola fila</p>
+                </div>
+                <div imagen><img src="imagenes/table.png" alt="" width="400"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>Es un conjunto estructurado de datos distribuidos en filas y columnas, 
+                        permite buscar con rapidez y facilidad valores entre diferentes tipos de datos que indiquen algún tipo de coneccion.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="hea" class="titulo">
+                <h1>header</h1>
+            </div>
+
+            <div id="lado1" class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                    <p>debe ser limpia y ordenada para que pueda ser visualizado con un solo vistazo y no de lugar a confusion.
+                    </p>
+                </div>
+            </div>
+
+            <div id="lado2" class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>Los elementos que pueden formar parte de el, van  a depender de los objetivos del sitio web:</p>
+                    <p>-logo</p>
+                    <p>-menu</p>
+                    <p>-datos de contacto</p>
+                    <p>-redes sociales</p>
+                    <p>-botones destacados</p>
+                    <p>-etc.</p>
+                </div>
+                <div imagen><img src="imagenes/head.webp" alt="" width="500"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>Es una de las partes mas importantes de una pagina web, 
+                        pues el elemento que los usuarion visualizan en primer lugar cuando llegan al proyecto</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="foo" class="titulo">
+                <h1>footer</h1>
+            </div>
+
+            <div id="lado1" class="lado1">
+                <h2>Ideas</h2>
+                <div class="texto1">
+                    <p>Es un espacio generico que suele tener el mismo diseno en todas las paginas web.
+                    </p>
+                </div>
+            </div>
+
+            <div id="lado2" class="lado2">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>Planificar cada uno de los elementos que va a incluir es parte del proceso de diseno de un proyecto web:</p>
+                    <p>-textos legales</p>
+                    <p>-sistemap o mapa del sitio</p>
+                    <p>-cookies</p>
+                    <p>-redes sociales</p>
+                    <p>-copyright / creditos</p>
+                    <p>-datos de contacto</p>
+                    <p>-sellos de confianza</p>
+                    <p>-CTA</p>
+                    <p>-formulario de suscripcion</p>
+                </div>
+                <div imagen><img src="imagenes/foo.jpg" alt="" width="500"></div>
+            </div>
+
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+                    <p>Es una seccion olvidada en muchos proyectos web, pero si es bien disenado puede ser util y efectivo. </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

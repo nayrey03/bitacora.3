@@ -1,0 +1,97 @@
+main{
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(../imagenes/deep\ sea.jpg);
+    background-position: center;
+    
+   
+   
+}
+section{
+    width: 1366px;
+    height: 1800px;
+    background-image: url(../imagenes/Shinkai\ Shoujo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+}
+nav a:hover{
+    background-color: rgb(179, 235, 227);
+}
+.titulo{
+    width: 1366px;
+    height: 70px;
+    background-color: rgb(20, 24, 88);
+    text-align: center;
+    color: white;
+}
+.lado1{
+    width: 550px;
+    height: 1100px;
+    background-color: rgba(39, 242, 232, 0.566);
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+.lado1 .texto1{
+    width: 500px;
+    height: 900px;
+    background-color: rgb(16, 176, 236);
+    margin-left: 25px;
+    text-align: center;
+    
+}
+.lado1 h2{
+    text-align: center;
+}
+.lado2{
+    width: 700px;
+    height: 1100px;
+    background-color: rgba(39, 242, 232, 0.566); 
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+    
+}
+.lado2 .texto2{
+    width: 600px;
+    height: 550px;
+    background-color:  rgb(16, 176, 236);
+    text-align: center;
+    margin: 25px;
+}
+.lado2{
+    text-align: center;
+}
+section .abajo{
+    width: 1366px;
+    height: 320px;
+    background-color: rgba(39, 242, 232, 0.566);
+    float: left;
+   margin-top: 20px;
+}
+.abajo .texto3{
+    width: 1250px;
+    height: 200px;
+    background-color:  rgb(16, 176, 236);
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+.abajo h2{
+    text-align: center;
+}
